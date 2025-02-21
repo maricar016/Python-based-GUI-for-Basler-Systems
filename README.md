@@ -16,7 +16,7 @@ The TOI lab focuses on the development of handheld microscopes. Due to the natur
 
 As a solution, an ESP32-based remote was created. This remote was designed to become part of the microscope's hardware, allowing the users to control the motors from the device itself. For this project, the ESP32-s3 feather was used. However, any ESP32-based microcontroller will work as long as the GPIO pins match exactly as the schematic.
 
-## ESP32 Remote Schematic:
+### ESP32 Remote Schematic:
 
 ![ESP32 Basler Remote Schematic](https://github.com/user-attachments/assets/1c0c8f9e-fa08-446b-89b8-8071eaa19b44)
 
@@ -31,7 +31,7 @@ As a solution, an ESP32-based remote was created. This remote was designed to be
   * Solder: any hardware store/ online
   * Breadboard and m-m jumper wires (to test/prototype): any Arduino kits/ prototyping kits
     
-## ESP32 Remote Arduino Code
+### ESP32 Remote Arduino Code
 The ESP32 Arduino code can be found in the ESP32 Remote folder. Simply upload this code to the ESP32 and check if pressing the buttons print its corresponding folder. After uploading your Arduino code, check in the Arduino IDE the COM PORT number when your ESP32 is connected to your computer. You will need to change the PORT number in the Python script to match the one in the Arduino IDE. Please keep in mind that plugging your ESP32 to a different USB port will result to a different COM PORT number, which requires the user to change the Python script to accomodate this change. COM PORT number will also change when using different computers. 
 
 ## Pololu Motor Driver:
