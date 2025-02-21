@@ -1,1 +1,1 @@
-
+Upload this code to to your ESP32 microcontroller. For this project, the ESP32-s3 feather was used for the remote. However, any version of the ESP32 will work as long as the wiring of the buttons are followed exactly as the schematic provided.
