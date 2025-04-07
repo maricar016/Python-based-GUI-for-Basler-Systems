@@ -45,4 +45,6 @@ For the Pololu motor driver, the config.yml file was developed specifically for 
 
 ![python_remote](https://github.com/user-attachments/assets/c850ced8-de75-4393-944c-444550a80690)
 
+## Latest GUI Version:
 
+![Screenshot 2025-03-18 144653](https://github.com/user-attachments/assets/714ac296-a9eb-4daf-8335-1fc9e9ce0d8f)
