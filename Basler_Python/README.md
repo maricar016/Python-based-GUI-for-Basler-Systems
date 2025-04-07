@@ -1,1 +1,3 @@
-
+Basler_Sensor_Only_GUI: simplified version of the GUI. This script only needs the Basler sensor. It includes some of the sensor settings and some data collection functions. 
+Basler_with_Pololu: this script needs both the Basler sensor and the pololu motor drive to run. This script includes the axial functionality and motor controls through the GUI. Functions in the Basler Only script is also included.
+Basler_with_Pololu_and_ESP32_Remote: This script will need the Basler sensor, Pololu motor driver, and ESP32 microcontroller in order to run. All functionalities from the first two scripts are included with an addition of the remote functions. Refer to the ESP32-Remote folder to see how to set up the remote.
